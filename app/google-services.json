@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "249634113859",
+    "firebase_url": "https://ravin-jain-fb-app.firebaseio.com",
+    "project_id": "ravin-jain-fb-app",
+    "storage_bucket": "ravin-jain-fb-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249634113859:android:68ac875ee594f2c807c7f6",
+        "android_client_info": {
+          "package_name": "com.learning.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249634113859-ic7mdmpcdjmuf8dqo6nivh50tse4kv6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhgZbTqkYslCEgRA_9kqSQbl97MSOo-n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249634113859-ic7mdmpcdjmuf8dqo6nivh50tse4kv6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
