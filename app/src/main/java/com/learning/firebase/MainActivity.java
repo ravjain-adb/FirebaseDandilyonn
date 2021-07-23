@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser mFirebaseUser;
 
-    // TODO - Step 10. Add firebase db instance variables
+    // TODO - Step 10. Add firebase db instance variables (Reading message)
     private DatabaseReference mFirebaseDatabaseReference;
     private FirebaseRecyclerAdapter<FriendlyMessage, MessageViewHolder>
             mFirebaseAdapter;
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
         mMessageRecyclerView.setLayoutManager(mLinearLayoutManager);
 
         // TODO Step 11. - Replaces the below line with code to reference firebase database and read message
-        // mProgressBar.setVisibility(ProgressBar.INVISIBLE);
+        //mProgressBar.setVisibility(ProgressBar.INVISIBLE);
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
         SnapshotParser<FriendlyMessage> parser = new SnapshotParser<FriendlyMessage>() {
             @Override
@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // TODO - Step 13. Add send button to send the text message
+        // TODO - Step 13. Add send button to send the text message (Send Message)
         mSendButton = (Button) findViewById(R.id.sendButton);
         mSendButton.setOnClickListener(new View.OnClickListener() {
             @Override
